@@ -1,0 +1,76 @@
+.content {
+  .messageContainer {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    .message {
+      color: red;
+      font-size: 15px;
+    }
+  }
+
+  .inputSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    .labelContainer {
+      font-size: 15px;
+      margin-bottom: 1px;
+    }
+
+    input {
+      margin-bottom: 5px;
+      border: 1px solid steelblue;
+      height: 20px;
+      width: 100%;
+      border-radius: 4px;
+    }
+  }
+
+  .actions {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, +50%);
+
+    .link {
+      font-size: 14px;
+      color: gray;
+      margin-right: 5px;
+      &:hover {
+        cursor: pointer;
+        color: black;
+      }
+    }
+
+    .register {
+      width: 100px;
+    }
+
+
+    button {
+      margin-left: 5px;
+      width: 80px;
+      height: 25px;
+      text-align: center;
+      border: 1px solid;
+      border-radius: 10px;
+      background-color: steelblue;
+      color: white;
+      opacity: 75%;
+
+      &:hover {
+        opacity: 100%;
+        cursor: pointer;
+      }
+    }
+  }
+}

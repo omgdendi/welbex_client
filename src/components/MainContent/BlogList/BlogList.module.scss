@@ -1,0 +1,12 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
+
+  .name {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

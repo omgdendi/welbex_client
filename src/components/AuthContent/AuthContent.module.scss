@@ -1,0 +1,35 @@
+.mainContent, .registerMainContent {
+  height: 240px;
+  min-width: 250px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+
+  .sectionHeader {
+    text-align: center;
+    position: relative;
+    background-color: steelblue;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    height: 30px;
+
+    .sectionHeader__name {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%)
+    }
+  }
+
+}
+
+.registerMainContent {
+  height: 320px;
+  width: 300px;
+}

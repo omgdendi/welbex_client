@@ -1,0 +1,45 @@
+.content {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: steelblue;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    padding: 10px;
+    height: 20px;
+
+    .rightSection {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        margin-left: 5px;
+        width: 20px;
+        color: white;
+        &:hover {
+          width: 25px;
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+  .main {
+    padding: 15px;
+
+    .message {
+      margin-bottom: 10px;
+    }
+
+    .img {
+      margin-bottom: 10px;
+    }
+  }
+  img {
+    width: 300px;
+  }
+}

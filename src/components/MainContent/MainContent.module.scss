@@ -1,0 +1,17 @@
+.content {
+  padding: 30px;
+
+  .create {
+    width: 150px;
+    height: 40px;
+    background-color: steelblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+  }
+}
